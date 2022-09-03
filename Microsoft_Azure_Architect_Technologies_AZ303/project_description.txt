@@ -1,0 +1,20 @@
+DESCRIPTION
+
+Business Scenario 
+
+
+The Rand Enterprises Corporation wants to test ARM template to bring infrastructure as code into practice. They have decided to work on project RandEnt to verify the functionality.
+
+The operations team at Rand decides to define entire networking architecture using ARM template, once that’s in place they intended to create the storage account along with virtual machine housing their application. 
+
+As Rand Enterprises works extensively on delivering Image based content for their global audience, they are seeking to improve the performance on that aspect. To facilitate the same, they have decided to introduce Azure CDN of Standard_Akamai SKU. 
+
+The expectation of the operation team is to Rather than deploying resources in Azure independently, they should leverage Azure ARM templates to deploy and provision all resources in templatize format.
+
+Overview 
+
+The main tasks for this exercise are as follows:
+
+1. Define the network 
+2. Extend that with Compute & Storage
+3. Create the Storage account for Images & implement CDN
